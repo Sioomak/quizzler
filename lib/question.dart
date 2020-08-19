@@ -1,1 +1,4 @@
-class Question  
+class Question {
+  String questionText;
+  bool questionAnswer;
+}
