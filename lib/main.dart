@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rflutter_alert/rflutter_alert.dart';
+//import 'package:rflutter_alert/rflutter_alert.dart';
 import 'quiz-brain.dart';
 
 QuizBrain quizBrain = QuizBrain();
@@ -44,11 +44,11 @@ class _QuizPageState extends State<QuizPage> {
         //Alert(context: context, title: "RFLUTTER", desc: "Flutter is awesome.").show();
 
         //Modified for our purposes:
-        Alert(
-          context: context,
-          title: 'Finished!',
-          desc: 'You\'ve reached the end of the quiz.',
-        ).show();
+//        Alert(
+//          context: context,
+//          title: 'Finished!',
+//          desc: 'You\'ve reached the end of the quiz.',
+//        ).show();
 
         //TODO Step 4 Part C - reset the questionNumber,
         quizBrain.reset();
